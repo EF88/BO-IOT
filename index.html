@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vodafone IoT CMS</title>
+    <link rel="icon" type="image/svg+xml" href="src/static/vodlogo.svg" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      const darkClass = 'dark'
+      const lightClass = 'light'
+
+      function setTheme(theme) {
+        const addClass = theme === 'dark' ? darkClass : lightClass
+        const removeClass = theme === 'dark' ? lightClass : darkClass
+        const root = window.document.documentElement
+        root.classList.add(addClass)
+        root.classList.remove(removeClass)
+      }
+      
+      setTheme('light')
+    </script>
+    
+    <script type="text/javascript">
+    </script>
+  </body>
+</html>

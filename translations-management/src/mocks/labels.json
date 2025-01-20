@@ -1,0 +1,12 @@
+{
+    "labels": ["en", "es", "it", "fr", "de", "nl", "pt"],
+    "locations": {
+        "en": "./src/mocks/en.json",
+        "es": "./src/mocks/es.json",
+        "it": "./src/mocks/it.json",
+        "fr": "./src/mocks/fr.json",
+        "de": "./src/mocks/de.json",
+        "nl": "./src/mocks/nl.json",
+        "pt": "./src/mocks/pt.json"
+    }
+}

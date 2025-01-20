@@ -1,0 +1,14 @@
+{
+    "features": [
+        "sims",
+        "saved-searches",
+        "history",
+        "last-activity-status",
+        "last-activity-status",
+        "dark-mode-switcher",
+        "new-graph-sim-history-new-api",
+        "sequence-number-confirmation",
+        "reset2FA",
+        "top-serving-network-graph"
+    ]
+}
