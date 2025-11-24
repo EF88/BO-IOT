@@ -1,14 +1,14 @@
 import { Container } from '@iot/portal-core-components'
 import './App.css'
 import { QueryClient, QueryClientProvider } from 'react-query'
-import { Body } from './components/Body'
+import FeatureFlags from './components/Body'
 
 const App = () => {
   const queryClient = new QueryClient()
 
   const ContentApp = (
     <div className="flex flex-col w-full p-4 h-full">
-      <Body />
+      <FeatureFlags />
     </div>
   )
 

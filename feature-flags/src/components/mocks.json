@@ -1,0 +1,144 @@
+{
+  "features": [
+    {
+      "name": "IP2-0000-Notifications",
+      "environments": {
+        "production": {
+          "enabled": true,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": false,
+            "RESELLER": true,
+            "OPCOGROUP": true,
+            "CUSTOMERGROUP": true,
+            "SUBCUSTOMER": true,
+            "OPCO": true,
+            "CUSTOMER": true
+          }
+        },
+        "staging": {
+          "enabled": false,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": true,
+            "RESELLER": false,
+            "OPCOGROUP": false,
+            "CUSTOMERGROUP": true,
+            "SUBCUSTOMER": false,
+            "OPCO": false,
+            "CUSTOMER": true
+          }
+        },
+        "lob": {
+          "enabled": false,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": true,
+            "RESELLER": false,
+            "OPCOGROUP": false,
+            "CUSTOMERGROUP": true,
+            "SUBCUSTOMER": false,
+            "OPCO": false,
+            "CUSTOMER": true
+          }
+        },
+        "remotedev": {
+          "enabled": true,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": true,
+            "RESELLER": false,
+            "OPCOGROUP": false,
+            "CUSTOMERGROUP": true,
+            "SUBCUSTOMER": false,
+            "OPCO": false,
+            "CUSTOMER": true
+          }
+        },
+        "development": {
+          "enabled": true,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": true,
+            "RESELLER": true,
+            "OPCOGROUP": false,
+            "CUSTOMERGROUP": true,
+            "SUBCUSTOMER": true,
+            "OPCO": true,
+            "CUSTOMER": true
+          }
+        }
+      },
+      "lastUpdatedBy": "emanuel.ferreira1@vodafone.com",
+      "lastUpdatedDate": "04/02/2025, 01:23:58",
+      "lastChanges": {
+        "production": false
+      }
+    },
+    {
+      "name": "IP2-0000-Help-Support",
+      "environments": {
+        "production": {
+          "enabled": false,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": true,
+            "RESELLER": true,
+            "OPCOGROUP": false,
+            "CUSTOMERGROUP": true,
+            "SUBCUSTOMER": true,
+            "OPCO": true,
+            "CUSTOMER": true
+          }
+        },
+        "staging": {
+          "enabled": true,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": true,
+            "RESELLER": false,
+            "OPCOGROUP": false,
+            "CUSTOMERGROUP": true,
+            "SUBCUSTOMER": false,
+            "OPCO": false,
+            "CUSTOMER": true
+          }
+        },
+        "lob": {
+          "enabled": false,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": true,
+            "RESELLER": false,
+            "OPCOGROUP": false,
+            "CUSTOMERGROUP": true,
+            "SUBCUSTOMER": true,
+            "OPCO": false,
+            "CUSTOMER": true
+          }
+        },
+        "remotedev": {
+          "enabled": true,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": true,
+            "RESELLER": false,
+            "OPCOGROUP": false,
+            "CUSTOMERGROUP": true,
+            "SUBCUSTOMER": false,
+            "OPCO": false,
+            "CUSTOMER": true
+          }
+        },
+        "development": {
+          "enabled": true,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": true,
+            "RESELLER": true,
+            "OPCOGROUP": true,
+            "CUSTOMERGROUP": true,
+            "SUBCUSTOMER": true,
+            "OPCO": true,
+            "CUSTOMER": true
+          }
+        }
+      },
+      "lastUpdatedBy": "emanuel.ferreira1@vodafone.com",
+      "lastUpdatedDate": "05/02/2025, 00:33:13",
+      "lastChanges": {
+        "production": false
+      }
+    }
+  ]
+}

@@ -9,7 +9,7 @@ const Sidebar = () => (
       className="p-3"
       ariaLabel="sidebar-title"
       size="xl"
-      message="IoT CMS"
+      message="IoT BO"
       iconStart="vodafoneLogo"
     />
     <ul

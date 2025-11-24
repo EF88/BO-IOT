@@ -1,0 +1,69 @@
+{
+  "features": [
+    {
+      "name": "IP2-0000-Help-Support",
+      "lastUpdatedBy": "emanuel.ferreira1@vodafone.com",
+      "lastUpdatedDate": "05/02/2025, 00:33:13",
+      "environments": {
+        "development": {
+          "enabled": true,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": true
+          }
+        }
+      }
+    },
+    {
+      "name": "IP2-0000-Help-Support",
+      "lastUpdatedBy": "emanuel.ferreira1@vodafone.com",
+      "lastUpdatedDate": "05/02/2025, 00:27:31",
+      "environments": {
+        "development": {
+          "enabled": false,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": false
+          }
+        }
+      }
+    },
+    {
+      "name": "IP2-0000-Help-Support",
+      "lastUpdatedBy": "emanuel.ferreira1@vodafone.com",
+      "lastUpdatedDate": "04/02/2025, 23:54:53",
+      "environments": {
+        "development": {
+          "enabled": true,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": true
+          }
+        }
+      }
+    },
+    {
+      "name": "IP2-0000-Help-Support",
+      "lastUpdatedBy": "emanuel.ferreira1@vodafone.com",
+      "lastUpdatedDate": "04/02/2025, 23:53:54",
+      "environments": {
+        "development": {
+          "enabled": false,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": false
+          }
+        }
+      }
+    },
+    {
+      "name": "IP2-0000-Help-Support",
+      "lastUpdatedBy": "emanuel.ferreira1@vodafone.com",
+      "lastUpdatedDate": "04/02/2025, 23:53:15",
+      "environments": {
+        "development": {
+          "enabled": true,
+          "roleOverrides": {
+            "PLATFORM_ADMINISTRATOR": true
+          }
+        }
+      }
+    }
+  ]
+}
